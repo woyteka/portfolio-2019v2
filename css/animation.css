@@ -1,0 +1,72 @@
+
+.container-box-center{
+    animation-duration: 0.2s;
+    animation-delay: 0.1s;
+    animation-fill-mode: backwards;
+    animation-name: scaleborder;  
+}
+
+@keyframes scaleborder{
+    0% {transform: scale(0);} 
+    90% {transform: scale(1.03);}  
+  100% {transform: scale(1.0)}; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.txt-strony{
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+    animation-fill-mode: backwards;
+    animation-name: image;
+    
+}
+
+.txt-internetowe{
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+    animation-name: image;  
+}
+
+.txt-materialy{
+    animation-duration: 0.5s;
+    animation-delay: 0.4s;
+    animation-fill-mode: backwards;
+    animation-name: image;  
+}
+
+.txt-graficzne{
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+    animation-name: image;  
+}
+
+.txt-dlainternetu{
+    animation-duration: 0.5s;
+    animation-delay: 0.6s;
+    animation-fill-mode: backwards;
+    animation-name: image;  
+}
+
+.txt-idruku{
+    animation-duration: 0.5s;
+    animation-delay: 0.7s;
+    animation-fill-mode: backwards;
+    animation-name: image;  
+}
+
+@keyframes image{
+    0% {transform: translate(-2000px);}
+    90% {transform: translate(5px);} 
+  100% {transform: translate(0px);} 
+}
