@@ -28,8 +28,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html{
+	height:100%;
+	margin:0px;
+	
+}
 body {
 	line-height: 1;
+    height:100%;
 }
 ol, ul {
 	list-style: none;
@@ -52,26 +59,32 @@ table {
 
 
 
+
+
+
+
 /*=============================================
-=            CONTAINER          =
+=            CONTAINER-MAIN          =
 =============================================*/
 
 .container{
 	display: flex;
 	justify-content: center;
 	width:100%;
-	height: auto;
+	min-height:100%;
+
 	background-color: black;
 	color:white;
+	margin:0px auto;
+	padding:0px;
 }
 
 .container-main{
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
-	min-width: 1024px;
-	max-width: 1024px;
-	border:solid white;
+	min-width: 1224px;
+	max-width: 1224px;
+	
 }
 
 
@@ -83,12 +96,110 @@ table {
 .container-header{
 display: flex;
 justify-content: space-between;
+align-items:center;
+flex-direction: row;
+height:80px;
+
+
+
+
+}
+
+
+/*----------  MENU  ----------*/
+
+
+
+.container-header-menu ul{
+display: flex;
+justify-content: space-between;
+width:150px;
+text-transform: uppercase;
+font-family: Geometr415LtPL;
+font-size: 13px;
+}
+
+ul li{
+	list-style: none;
+	
+}
+
+
+
+/*----------  LOGO  ----------*/
+
+
+
+
+/*=============================================
+=            CONTAINER-BOX            =
+=============================================*/
+
+
+.container-box{
+	height: 100%;
+display: flex;
+justify-content: center;
+
 
 
 }
 
 
 
+/*----------  LEFT  ----------*/
 
+
+
+.container-box-left{
+width:45%;
+}
+
+
+/*----------  CENTER  ----------*/
+
+.container-box-center{
+	display: flex;
+justify-content: center;
+align-self: center;
+border:solid white 1px;
+margin: 10px;
+height: 90%;;
+}
+
+
+/*----------  RIGHT  ----------*/
+
+
+
+.container-box-right{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	width:51%;;
+font-family:'Evogria';
+font-size:55px;
+
+}
+
+.right-info-box{
+	font-family: Geometr415LtPL;
+	font-size: 16px;
+	width:450px;
+}
+
+
+
+
+
+/*=============================================
+=            FOOTER            =
+=============================================*/
+
+.container-box-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
 
