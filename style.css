@@ -8,6 +8,7 @@
 04-CONTAINER-BOX
 05-FOOTER 
 06-SHAPE BACKGROUND
+07 BTN BUTTONS
 
 
 
@@ -225,6 +226,8 @@ height: 80%;
 	width:51%;;
 font-family:'Evogria';
 font-size:55px;
+z-index: 999;
+
 
 }
 
@@ -238,6 +241,15 @@ font-size:55px;
 	display: flex;
 	flex-direction: column;
 }
+
+.anim:hover{
+	opacity: 0.1;
+	transition-duration: 0.5s;
+	color:yellow;
+}
+
+
+
 
 
 
@@ -264,7 +276,7 @@ font-size:55px;
 
 
 /*=============================================
-=            SHAPE BACKGROUND            =
+=06            SHAPE BACKGROUND            =
 =============================================*/
 
 .background-shape{
@@ -280,4 +292,49 @@ font-size:55px;
 }
 
 
+
+/*=============================================
+=07           BUTTONS            =
+=============================================*/
+
+.btn{
+cursor: pointer;
+}
+
+
+.bialy{
+	background-color: yellow;
+}
+
+.line-btn{
+	background-color:yellow;
+	margin-top: 5px;
+	height: 3px;
+	width: 0px;
+	opacity: 0;
+	transition-duration: 0.2s;
+}
+
+.line-btn-info{
+	background-color:yellow;
+	margin-top: 5px;
+	height: 3px;
+	width: 0px;
+	opacity: 0;
+	transition-duration: 0.2s;
+}
+
+.btn:hover .line-btn-info{
+	width: 33px;
+	opacity: 1;
+	transition-duration: 0.2s;
+}
+
+.btn:hover .line-btn{
+	opacity: 1;
+	width: 78px;
+	transition-duration: 0.2s;
+
+
+}
 

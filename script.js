@@ -1,8 +1,9 @@
-window.onload=function(){
-
-let akapit = document.querySelector('p');
-akapit.addEventListener('click',function(){
-    alert("ghggg");
+$(document).ready(function(){
+    $(".portfolio").click(function(){
+        $('.container-box-right').load('page-portfolio.html .container-box-left');
+    });
+   
 });
 
-};
+
+
