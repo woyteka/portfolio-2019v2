@@ -146,7 +146,9 @@ display: flex;
 justify-content: space-between;
 width:150px;
 text-transform: uppercase;
+src:url('http://woyteka5.webd.pl/po/Geometr415LtPL-Regular.otf');
 font-family: Geometr415LtPL;
+
 font-size: 13px;
 }
 
@@ -159,7 +161,15 @@ ul li{
 
 /*----------  LOGO  ----------*/
 
+.logo{
+	width:80%;
+	transition-duration: 0.5s;
+}
 
+.logo:hover{
+	transition-duration: 0.5s;
+	width:70%;
+}
 
 
 /*=============================================
@@ -234,10 +244,28 @@ height: 80%;
 	overflow: hidden;
 	width:51%;;
 font-family:'Evogria';
+src:url('http://woyteka5.webd.pl/po/Evogria.otf');
 font-size:55px;
 z-index: 999;
 
 
+}
+
+.small{
+	font-size:35px;	
+	width:90%;
+}
+
+.but{
+	cursor: pointer;
+}
+
+.but:hover{
+	color:yellow;
+}
+
+.infoup{
+	margin-bottom: 10px;
 }
 
 
@@ -246,6 +274,8 @@ z-index: 999;
 
 .right-info-box{
 	font-family: Geometr415LtPL;
+	src:url('http://woyteka5.webd.pl/po/Geometr415LtPL-Regular.otf');
+	margin-top:10px;
 	font-size: 16px;
 	width:450px;
 }
@@ -274,6 +304,7 @@ z-index: 999;
 	flex-direction: row;
 	justify-content: space-between;
 	font-family: Geometr415LtPL;
+	src:url('http://woyteka5.webd.pl/po/Geometr415LtPL-Regular.otf');
 	font-size:10px;
 	padding-bottom: 5px;
 	
@@ -345,5 +376,19 @@ cursor: pointer;
 	transition-duration: 0.2s;
 
 
+}
+
+.oko{
+	background-color:red;
+}
+.right-info-box{
+	z-index: 3;
+}
+.container-box-right .oo{
+	z-index: 2;
+}
+
+.drewnochem{
+	z-index: 1;
 }
 

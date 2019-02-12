@@ -1,3 +1,8 @@
+/*=============================================
+=            Resolution min 1367px            =
+=============================================*/
+
+
 @media all and (min-width:1367px){
 
     .container-box-center{
@@ -24,6 +29,13 @@ height: 50%;
 }
 
 
+/*=============================================
+=            Resolution max 960px            =
+=============================================*/
+
+
+
+
 @media all and (max-width:960px){
 
 
@@ -43,27 +55,54 @@ height: 50%;
 }
 
 
+
+
+
+/*=============================================
+=            Resolution max 480px            =
+=============================================*/
+
+
+
+
+
+
+
+
 @media all and (max-width:479px){
+
+    .container{
+        
+        width:98%;
+        height: 100%;
+    }
 .container-box-inbox{
     
-    width: 100%;
+    width: 99%;
 }
 .container-box-right{
-    width:90%;
+    width:500%;
+    
 }
 
 
 .right-info-box{
-    width: 100%;
+    width: 110%;
+   
+}
+
+.small{
+width:70%;
 }
 
 .container-box-center{
-    height: 50%;;
+    height: 70%;;
 }
 
 
 .container-box-left{
-    order:1;
+    display:none;
+
 }
 
 

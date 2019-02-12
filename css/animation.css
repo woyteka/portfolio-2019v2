@@ -77,10 +77,12 @@
 
 .txt-info{
     animation-duration: 0.5s;
-    animation-delay: 0.9s;
+    animation-delay: 0.8s;
     animation-fill-mode: backwards;
     animation-name: image;  
 }
+
+
 
 @keyframes image{
     0% {transform: translate(-2000px);}
@@ -90,19 +92,86 @@
 
 
 
+/* ANIMACJA WYJSCIA NAPISÓW */
 
-.image{
-    animation-duration: 0.5s;
-    animation-delay: 0.9s;
-    animation-fill-mode: backwards;
-    animation-name: telefon;    
+
+
+.oneout{
+animation-duration: 0.5s;
+animation-delay: 0.1s;
+animation-fill-mode:forwards;
+animation-name: imageout; 
 }
 
+.twoout{
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+    animation-fill-mode:forwards;
+    animation-name: imageout; 
+    }
+.treeout{
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
+        animation-fill-mode:forwards;
+        animation-name: imageout; 
+        }
+
+ .fourout{
+            animation-duration: 0.5s;
+            animation-delay: 0.4s;
+            animation-fill-mode:forwards;
+            animation-name: imageout; 
+            }
+
+            .fiveout{
+                animation-duration: 0.5s;
+                animation-delay: 0.5s;
+                animation-fill-mode:forwards;
+                animation-name: imageout; 
+                } 
+                
+                .sixout{
+                    animation-duration: 0.5s;
+                    animation-delay: 0.6s;
+                    animation-fill-mode:forwards;
+                    animation-name: imageout; 
+                    }
+                    .sevenout{
+                        animation-duration: 0.5s;
+                        animation-delay: 0.7s;
+                        animation-fill-mode:forwards;
+                        animation-name: imageout; 
+                        }
+
+
+
+
+
+@keyframes imageout{
+    0% {transform: translate(0px);}
+    90% {transform: translate(5px);} 
+  100% {transform: translate(-500px);} 
+}
+
+
+/* ANIMACJA ZDJĘCIA TELEFONU */
+
+.image{
+    margin-right:-880px;
+    animation-duration: 3s;
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards;
+    animation-name: telefon; 
+       
+}
 
 
 
 @keyframes telefon{
-    0% {transform: translate(500px);}
-    90% {transform: translate(5px);} 
+    0% {transform: translate(0px);}
+    10% {transform: translate(-330px);}
+    79% {transform: translate(-330px);}
+    90% {transform: translate(-340px);} 
   100% {transform: translate(0px);} 
 }
+
