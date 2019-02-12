@@ -3,6 +3,71 @@
     .container-box-center{
 height: 50%;
     }
+    .container{
+        width:80%;
+    }
+
+}
+
+
+
+@media all and (max-width:1024px){
+
+
+    .container-main{
+        width:97%;
+    }
+    .container-box-right{
+        width:40%;
+        padding-right: 50px;
+     }
+}
+
+
+@media all and (max-width:960px){
+
+
+    .container-main{
+        width:97%;
+    }
+    .container-box-right{
+        font-size:32px;
+        width:40%;
+        padding-right: 50px;
+     }
+     .right-info-box{
+         padding-top:10px;
+         font-size:14px;
+         width: 90%;
+     }
+}
+
+
+@media all and (max-width:479px){
+.container-box-inbox{
+    
+    width: 100%;
+}
+.container-box-right{
+    width:90%;
+}
+
+
+.right-info-box{
+    width: 100%;
+}
+
+.container-box-center{
+    height: 50%;;
+}
+
+
+.container-box-left{
+    order:1;
+}
+
+
+
 
 
 }

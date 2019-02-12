@@ -87,3 +87,22 @@
     90% {transform: translate(5px);} 
   100% {transform: translate(0px);} 
 }
+
+
+
+
+.image{
+    animation-duration: 0.5s;
+    animation-delay: 0.9s;
+    animation-fill-mode: backwards;
+    animation-name: telefon;    
+}
+
+
+
+
+@keyframes telefon{
+    0% {transform: translate(500px);}
+    90% {transform: translate(5px);} 
+  100% {transform: translate(0px);} 
+}
