@@ -85,6 +85,11 @@ table {
 	border-spacing: 0;
 }
 
+a{
+	text-decoration: none;
+	color:white;
+}
+
 
 /* END RESET CSS */
 
@@ -253,7 +258,7 @@ z-index: 999;
 
 .small{
 	font-size:35px;	
-	width:90%;
+	width:60%;
 }
 
 .but{
@@ -346,6 +351,8 @@ cursor: pointer;
 	background-color: yellow;
 }
 
+/* button portfolio */
+
 .line-btn{
 	background-color:yellow;
 	margin-top: 5px;
@@ -354,6 +361,20 @@ cursor: pointer;
 	opacity: 0;
 	transition-duration: 0.2s;
 }
+
+
+.btn:hover .line-btn{
+	opacity: 1;
+	width: 78px;
+	transition-duration: 0.2s;
+
+
+}
+
+
+
+/* button ifno */
+
 
 .line-btn-info{
 	background-color:yellow;
@@ -364,19 +385,39 @@ cursor: pointer;
 	transition-duration: 0.2s;
 }
 
+
+
 .btn:hover .line-btn-info{
 	width: 33px;
 	opacity: 1;
 	transition-duration: 0.2s;
 }
 
-.btn:hover .line-btn{
-	opacity: 1;
-	width: 78px;
+
+
+
+/* button home */
+
+.line-btn-home{
+	background-color:yellow;
+	margin-top: 5px;
+	height: 3px;
+	width: 0px;
+	opacity: 0;
 	transition-duration: 0.2s;
-
-
 }
+
+.btn:hover .line-btn-home{
+	width: 42px;
+	opacity:1;
+	transition-duration:0.2s;
+}
+
+
+
+
+
+
 
 .oko{
 	background-color:red;
@@ -384,11 +425,13 @@ cursor: pointer;
 .right-info-box{
 	z-index: 3;
 }
-.container-box-right .oo{
-	z-index: 2;
-}
+
 
 .drewnochem{
 	z-index: 1;
+}
+
+.imagea{
+	display: none;
 }
 
