@@ -28,6 +28,17 @@ setTimeout(strona, 1500);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* KOD PODŁĄCZONY DO BUTTONA HOME */
 
     $(".home").click(function(){
@@ -75,6 +86,81 @@ let strona = function(){
 }
 setTimeout(strona, 1500);
     });
+
+
+
+
+
+
+
+
+
+
+
+/* KOD PODŁĄCZONY DO BUTTONA PORTFOLIO  NA PODSTRONIE PORTFOLIO*/
+
+$(".port").click(function(){
+      
+
+    let strona = function(){
+    
+            window.location="portfolio.html";
+    }
+    setTimeout(strona, 100);
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+/* KOD PODŁĄCZONY DO BUTTONA INFO  NA PODSTRONIE PORTFOLIO*/
+
+$(".info2").click(function(){
+      
+
+    let strona = function(){
+    
+            window.location="info.html";
+    }
+    setTimeout(strona, 100);
+        });
+
+
+
+
+
+        /* KOD PODŁĄCZONY DO BUTTONA INFO  NA PODSTRONIE PORTFOLIO*/
+
+$(".home2").click(function(){
+      
+
+    let strona = function(){
+    
+            window.location="index.html";
+    }
+    setTimeout(strona, 100);
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
