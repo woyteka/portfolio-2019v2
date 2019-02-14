@@ -88,6 +88,15 @@ $('.drewnochem').mouseover(function(){
     
 });
 
+
+$('.drewnochem').click(function(){
+    window.location="single-portfolio.html";
+
+    
+});
+
+
+
 $('.drewnochem').mouseout(function(){
     $('.imagea').css('display','none');
 
