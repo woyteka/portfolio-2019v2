@@ -90,8 +90,13 @@ $('.drewnochem').mouseover(function(){
 
 
 $('.drewnochem').click(function(){
+    $('.white-box').addClass('white-box-animation');
+let stro=function (){
     window.location="single-portfolio.html";
+   
+}
 
+setTimeout(stro, 500);
     
 });
 

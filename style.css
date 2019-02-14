@@ -67,7 +67,9 @@ html{
 body {
 	line-height: 1;
 	height:100%;
-    background-color:black;
+	background-color:black;
+	overflow:hidden;
+	
 }
 ol, ul {
 	list-style: none;
@@ -102,13 +104,24 @@ a{
 /*=============================================
 =02         CONTAINER-MAIN          =
 =============================================*/
+.widoczny{
+	overflow: visible;
+}
+
 
 .container{
+	
 	display: flex;
 	justify-content: center;
 	width:100%;
+	height:100%;
 	min-height:100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
 	overflow: hidden;
+	
+	
+	
 	
 	color:white;
 	margin:0px auto;
@@ -121,6 +134,7 @@ a{
 	width: 80%;
 	max-width: 1224px;
 	overflow: hidden;
+	
 	
 }
 
@@ -188,6 +202,7 @@ ul li{
 display: flex;
 justify-content: center;
 flex-direction: column;
+
 
 
 
